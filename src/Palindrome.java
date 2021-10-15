@@ -1,6 +1,7 @@
 
 public class Palindrome {
 
+	// Function
 	static boolean isPalindrome(String word) {
 		int i = 0, j = word.length() - 1;
 		while (i < j) {
